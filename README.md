@@ -1,23 +1,37 @@
 # 🦇 Wayne Enterprises — Django Project
 ## Informe Estratégico: Transformación Digital y Migración a la Nube
-
+ 
+---
+ 
 ## INSTALACIÓN
-
+ 
 ```bash
 pip install django pillow
 cd waynetech
 python manage.py makemigrations
 python manage.py migrate
 python manage.py loaddata core/fixtures/initial_data.json
+python manage.py createsuperuser
 python manage.py runserver
 ```
-Superuser: Bruce -
-Contraseña: 12345678
-
+ 
 Abrir: http://127.0.0.1:8000/
 Admin: http://127.0.0.1:8000/admin/
-
+ 
+---
+ 
+## IMÁGENES (carpeta media/)
+ 
+Las imágenes **no están en el repositorio**. Deben ser enviadas por separado via WhatsApp.
+ 
+Una vez recibida agregar en la carpeta `waynetech/media/`, pegarla en la raíz del proyecto:
+ 
+> ⚠️ Sin la carpeta `media/` las imágenes no se verán en el sitio.
+ 
+---
+ 
 ## SECCIONES
+ 
 1. Hero — estadísticas globales de la empresa
 2. Corporativo — ficha empresarial y contexto estratégico
 3. Organigrama — CEO + 7 C-levels con perfil cloud (click = modal)
