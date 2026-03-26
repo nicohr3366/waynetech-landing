@@ -11,8 +11,8 @@ python manage.py migrate
 python manage.py loaddata core/fixtures/initial_data.json
 python manage.py runserver
 ```
-superuser: Bruce
-contraseña: 12345678
+Superuser: Bruce -
+Contraseña: 12345678
 
 Abrir: http://127.0.0.1:8000/
 Admin: http://127.0.0.1:8000/admin/
