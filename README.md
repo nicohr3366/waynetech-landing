@@ -9,21 +9,13 @@ cd waynetech
 python manage.py makemigrations
 python manage.py migrate
 python manage.py loaddata core/fixtures/initial_data.json
-python manage.py createsuperuser
 python manage.py runserver
 ```
+superuser: Bruce
+contraseña: 12345678
 
 Abrir: http://127.0.0.1:8000/
 Admin: http://127.0.0.1:8000/admin/
-
-## IMÁGENES
-Copiar JPGs a:
-- media/team/      → Bruce, Lucius, Alfred, Barbara, Tim, Dick...
-- media/gadgets/   → Batimóvil, Traje, Batwing...
-- media/villains/  → Joker, Bane, Ra's, Nygma...
-- media/divisions/ → Logos de cada división (opcional)
-
-Luego asignar en el Admin → cada modelo tiene campo "image".
 
 ## SECCIONES
 1. Hero — estadísticas globales de la empresa
