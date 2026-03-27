@@ -14,7 +14,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 ## INSTALACIÓN
  
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/nicohr3366/waynetech-landing.git
 cd waynetech
 python -m venv venv
 venv\Scripts\activate
