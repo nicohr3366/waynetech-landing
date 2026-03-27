@@ -1,13 +1,25 @@
 # 🦇 Wayne Enterprises — Django Project
 ## Informe Estratégico: Transformación Digital y Migración a la Nube
+
+## ⚙️ Requisitos del sistema
+
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
+
+- Python 3.10 o superior
+- pip (gestor de paquetes de Python)
+- Git
  
 ---
  
 ## INSTALACIÓN
  
 ```bash
-pip install django pillow
+git clone URL_DEL_REPOSITORIO
 cd waynetech
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+pip install django pillow
 python manage.py makemigrations
 python manage.py migrate
 python manage.py loaddata core/fixtures/initial_data.json

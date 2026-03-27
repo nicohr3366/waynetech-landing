@@ -19,3 +19,6 @@ Thumbs.db
 
 # Mac
 .DS_Store
+
+#Entorno virtual
+venv/
